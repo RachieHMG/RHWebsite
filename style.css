@@ -107,6 +107,8 @@ p.grid-content {
   height: auto;
   vertical-align: middle;
   box-shadow: var(--box-shadow);
+  padding: 5px;
+  margin: 20px;
 }
 .img-fluids {
   max-width: 100%;
