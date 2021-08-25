@@ -116,7 +116,7 @@ p.grid-content {
   padding: 5px;
   margin: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   h1 {
     font-size: 60px;
     text-align: center;
@@ -135,10 +135,12 @@ p.grid-content {
     display: none;
   }
   .img-fluids {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     padding: 5px;
-    margin: 20px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
   }
   .mt-5 {
     text-align: center;
