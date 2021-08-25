@@ -100,23 +100,22 @@ p.grid-content {
   vertical-align: middle;
   box-shadow: var(--box-shadow);
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 60px;
     text-align: center;
   }
   h2 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
-  p {
+  .grid-content {
     text-align: center;
   }
   .img-fluid {
     display: none;
   }
-
-  .primary-link {
+  .mt-5 {
     text-align: center;
   }
 }
