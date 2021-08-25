@@ -102,7 +102,7 @@ p.grid-content {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   .img-fluid {
     display: block;
