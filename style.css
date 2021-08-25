@@ -100,13 +100,11 @@ p.grid-content {
   vertical-align: middle;
   box-shadow: var(--box-shadow);
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 60px;
   }
   .img-fluid {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
+    display: none;
   }
 }
