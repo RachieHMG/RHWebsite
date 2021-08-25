@@ -109,7 +109,14 @@ p.grid-content {
     font-size: 40px;
     text-align: center;
   }
+  p {
+    text-align: center;
+  }
   .img-fluid {
     display: none;
+  }
+
+  .primary-link {
+    text-align: center;
   }
 }
