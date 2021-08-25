@@ -108,6 +108,14 @@ p.grid-content {
   vertical-align: middle;
   box-shadow: var(--box-shadow);
 }
+.img-fluids {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+  margin: 20px;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
@@ -117,11 +125,20 @@ p.grid-content {
     font-size: 30px;
     text-align: center;
   }
+  h3 {
+    text-align: center;
+  }
   .grid-content {
     text-align: center;
   }
   .img-fluid {
     display: none;
+  }
+  .img-fluids {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 20px;
   }
   .mt-5 {
     text-align: center;
