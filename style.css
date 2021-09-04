@@ -8,6 +8,7 @@
 body {
   margin: 60px auto;
   max-width: 1000px;
+  background-color: #d6d6d6;
 }
 h1 {
   font-size: 80px;
@@ -22,7 +23,8 @@ h3 {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   display: block;
   text-align: center;
   margin: 0;
@@ -35,7 +37,12 @@ p {
   line-height: 1.5;
   text-align: center;
 }
-
+h4 {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -147,4 +154,11 @@ p.grid-content {
   .mt-5 {
     text-align: center;
   }
+}
+
+.banner {
+  width: 1020px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
