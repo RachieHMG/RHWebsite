@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #ff63cb;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --hover-color: rgb(255, 173, 255);
+  --hover-color: rgb(66, 29, 57);
 }
 
 body {
@@ -37,6 +37,7 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+
 h4 {
   border-radius: 4px;
   font-size: 18px;
@@ -67,12 +68,12 @@ h4 {
   color: var(--hover-color);
 }
 
-.about-link {
+.work-link {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  background-color: white;
+
+  text-decoration: none;
 }
-.about-link:hover {
+.work-link:hover {
   color: var(--hover-color);
 }
 .email-link {
@@ -89,6 +90,16 @@ h4 {
 }
 
 .primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  justify-content: middle;
+}
+.button_contact {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
